@@ -1,5 +1,5 @@
 ---
-serial: AF68F6BC
+serial: C4D46AD8
 ---
 <!--
 ═══════════════════════════════════════════════════════════════════════════
@@ -22,7 +22,7 @@ A first course in the fundamentals of cryptography and information and computer 
 **Jump to:**
 [Course Info](#course-information) ·
 [Description](#course-description) ·
-[Materials](#required-materials) ·
+[Materials](#course-materials) ·
 [Grading](#grading--assessment) ·
 [Schedule](#tentative-schedule) ·
 [GitHub & Software](#github--software) ·
@@ -40,7 +40,7 @@ A first course in the fundamentals of cryptography and information and computer 
 | **Term** | Fall 2026 · August 24 – December 11, 2026 |
 | **Meets** | Tue / Thu · 11:00 AM – 12:15 PM |
 | **Room** | VEC-331 |
-| **Final Exam** | Thursday, December 17 · 10:15 AM – 12:15 PM |
+| **Exam 3** | Thursday, December 17 · 10:15 AM – 12:15 PM *(University final-exam slot)* |
 | **Format** | Lecture 2 hrs · Laboratory 3 hrs · Letter grade (A–F) |
 | **Instructor** | Anthony Giacalone |
 | **Email** | anthony.giacalone@csulb.edu |
@@ -64,10 +64,24 @@ An introduction to the fundamentals of cryptography and information and computer
 - Know how to design and analyze a secure computer system in general
 - Have a solid understanding of current, topical issues in computer security
 
-## Required Materials
+## Course Materials
 
-> [!NOTE]
-> **Required —** *[Computer Security: Principles and Practice](https://www.amazon.com/Computer-Security-Principles-Practice-4th/dp/0134794109)*, 4th edition. William Stallings and Lawrie Brown, 2017.
+> [!IMPORTANT]
+> **There is no textbook for this course, and nothing to buy.** There *are* weekly readings. You get them free.
+
+At the **start of each week** you get that week's readings, along with the week's discussion questions. The two go together. The questions are about the readings, and your answers go in the [discussion forum](#participation) instead of onto a worksheet.
+
+**What changed from previous semesters:** there are no longer reading questions to complete and turn in. ==The discussion *is* the assignment now.== Same reading, same thinking, different place to put it. It is worth **10% of your grade**.
+
+| | |
+|---|---|
+| **Cost** | Zero. Nothing to purchase, rent, or return. |
+| **When** | Posted at the beginning of each week, with that week's discussion questions. |
+| **Where** | Canvas, and/or a course repository — the location is announced in the first week. |
+| **What** | Papers, documentation, standards, articles, man pages. Free and online. |
+
+> [!TIP]
+> Some people learn better with a book in hand. If that is you, ask me and I will point you at a good one for whatever you are stuck on. ==Do not buy anything on the assumption that it is required. Nothing is.==
 
 You are responsible for finding and installing any software needed to complete the programming assignments. While not strictly required, **I highly recommend installing a Linux operating system on your computer or running a Linux virtual machine.** This course can be completed in its entirety using free, open-source software.
 
@@ -75,18 +89,32 @@ You are responsible for finding and installing any software needed to complete t
 
 | Component | Weight | | Grade | Scale |
 |-----------|:-----:|---|:-----:|:-----:|
-| Homework and Labs | 35% | | **A** | ≥ 90% |
-| Exam One | 20% | | **B** | 80 – 89% |
-| Exam Two | 20% | | **C** | 70 – 79% |
-| Final Exam | 25% | | **D** | 60 – 69% |
-| **Total** | **100%** | | **F** | < 60% |
+| Participation (Canvas discussions) | 10% | | **A** | ≥ 90% |
+| Homework and Labs | 30% | | **B** | 80 – 89% |
+| Exam 1 | 20% | | **C** | 70 – 79% |
+| Exam 2 | 20% | | **D** | 60 – 69% |
+| Exam 3 | 20% | | **F** | < 60% |
+| **Total** | **100%** | | | |
 
 ### Exams
 
-Students will take **two midterm exams** during the semester, with a **final exam** administered at the conclusion. There may be some writing on the quizzes and exams.
+Students take **three exams**, each worth **20%**. They are weighted equally. There is no cumulative "final" worth more than the rest: **Exam 3** is just the third one. It falls in the University final-exam slot listed above because that is where the University puts it, not because it counts for more. There may be some writing on the exams.
 
 > [!IMPORTANT]
 > There are **no makeups** for any quiz or exam. During in-class exams or quizzes there are **no bathroom breaks** — please use the restroom beforehand. A student who leaves the classroom before the exam concludes forfeits the remainder of their exam.
+
+### Participation
+
+**10% of your grade** comes from participation in the **discussion forum on Canvas**. Prompts go up there each week. Credit is for engaging with the prompt and with what your classmates wrote. It is not for volume.
+
+> [!IMPORTANT]
+> **Read the [Discussion Forum Rules](https://github.com/agiacalone/cecs-378-fa26-01-syllabus-4785/blob/main/docs/discussion-rules.md) before your first post.** They define what earns credit, what does not, the conduct expectations, and how the AI and academic-honesty policies apply in the forum. They are part of this syllabus.
+
+> [!TIP]
+> A post that adds a reason, a counter-example, or a question someone can answer is worth more than three that agree with the previous poster. Short is fine. Empty is not.
+
+> [!NOTE]
+> Participation is assessed **only** through the Canvas forum — attendance is mandatory (see [Course Policies](#course-policies)) but is not itself the participation grade. Prompts, cadence, and due dates live on Canvas.
 
 ## Tentative Schedule
 
@@ -94,22 +122,22 @@ Students will take **two midterm exams** during the semester, with a **final exa
 
 | Week of | Subject |
 |------|---------|
-| **Aug 24** | Intro to Computer Security (Ch 1) |
+| **Aug 24** | Intro to Computer Security |
 | **Aug 31** | Intro, ctd |
-| **Sep  7** | Symmetric and Asymmetric Encryption (Ch 2, 20, 21) |
+| **Sep  7** | Symmetric and Asymmetric Encryption |
 | **Sep 14** | Encryption, ctd |
 | **Sep 21** | Encryption, ctd |
-| **Sep 28** | 🅰 **First Exam** · Malicious Software (Ch 6) |
+| **Sep 28** | 🅰 **Exam 1** · Malicious Software |
 | **Oct  5** | Malware, ctd |
 | **Oct 12** | Malware, ctd |
-| **Oct 19** | Denial of Service Attacks (Ch 7) |
+| **Oct 19** | Denial of Service Attacks |
 | **Oct 26** | DoS Attacks, ctd |
-| **Nov  2** | Database and Cloud Security (Ch 5) |
-| **Nov  9** | 🅱 **Second Exam** · Buffer Overflow (Ch 10) |
+| **Nov  2** | Database and Cloud Security |
+| **Nov  9** | 🅱 **Exam 2** · Buffer Overflow |
 | **Nov 16** | Buffer Overflow, ctd |
-| **Nov 23** | User Authentication and Access Control (Ch 3, 4) — ⚠ **Thanksgiving: no Thursday class** |
+| **Nov 23** | User Authentication and Access Control — ⚠ **Thanksgiving: no Thursday class** |
 | **Nov 30** | Case Studies |
-| **Dec  7** | Review & catch-up · last meeting Thu Dec 10 |
+| **Dec  7** | Review & catch-up · last meeting Thu Dec 10 · 🅲 **Exam 3** in finals week |
 
 <!-- ▲▲▲ END TERM VARIABLES — SCHEDULE ▲▲▲ -->
 
@@ -140,7 +168,7 @@ Homework and lab assignments will be assigned approximately every other week, an
 - Lab assignments will be coding projects designed to practice the concepts discussed in lecture.
 - You are welcome to work on assignments at home, but assistance is provided only during class time or office hours.
 - Labs are graded on correct answers to required deliverables and/or the completeness of the assignment. Incomplete assignments may receive partial or no credit at the instructor's discretion.
-- You are expected to read the assigned textbook selections **before** each lecture so we can discuss the topics in class.
+- **Participation in the online discussion forum on Canvas is required, not optional.** It is worth **10% of your grade**, and you are expected to follow the [Discussion Forum Rules](https://github.com/agiacalone/cecs-378-fa26-01-syllabus-4785/blob/main/docs/discussion-rules.md). Read them before posting. Posting nothing forfeits that 10% outright: there is no alternative assignment and no way to make it up at the end of the semester.
 - **All source code submitted must be adequately commented to receive credit.** Source code that is not commented with the student's own comments *will not receive any credit*.
 
 > [!WARNING]
@@ -169,9 +197,22 @@ Work that you submit is assumed to be original unless your source material is do
 
 Students are encouraged to explore and utilize Artificial Intelligence (AI) tools to enhance their learning experience. However, the use of AI must align with the principles of academic integrity and ethical conduct. AI tools may be used for tasks such as brainstorming, editing, or coding assistance, provided their use is transparently disclosed and does not misrepresent the student's own understanding or effort. Unauthorized use of AI to complete assignments, plagiarize content, or generate work without proper attribution is prohibited and will be treated as a violation of academic integrity policies. If you are uncertain about whether a particular use of AI is permitted, please consult the instructor before proceeding.
 
+> [!CAUTION]
+> **AI must not substitute for your own words.** That holds for everything you submit, and most of all for the **[online discussion forum](#participation)**.
+>
+> The line is between *assistance* and *substitution*. Asking a model to check your reasoning, suggest a counter-example, or tighten a sentence you wrote is assistance, and it is permitted when disclosed. Prompting a model for an answer and posting what it produces is substitution, whether or not you edited it afterward. ==Submitting generated text as your own thinking is a violation of the Academic Integrity Policy, and it will be handled under the section above.==
+>
+> This matters most in the forum, because there the discussion **is** the assessment. Your posts are the only evidence that you did the reading and thought about it.
+>
+> None of this depends on catching anyone. ==**A post that is fluent, on topic, and empty earns nothing, whether a model wrote it or you did.**== I am not running anyone's writing through a detector and I do not need to: credit requires a claim someone could argue with, and slop does not have one. Same bar for everybody.
+>
+> A forum full of confident, agreeable, generic text is not worth reading, and if nobody reads it the 10% is a tax we all pay for nothing. That is the real problem. Details in the [Discussion Forum Rules](https://github.com/agiacalone/cecs-378-fa26-01-syllabus-4785/blob/main/docs/discussion-rules.md).
+>
+> If you are unsure whether a particular use crosses the line, ask me first. That question has never once gotten a student in trouble.
+
 ### Withdrawal Policy
 
-Students may request a withdrawal from the instructor as long as the request meets University requirements and no more than one of the assigned midterm exams has been given to the class. Requests for withdrawal involving extenuating circumstances will be evaluated on a case-by-case basis at the discretion of the instructor.
+Students may request a withdrawal from the instructor as long as the request meets University requirements and no more than one of the assigned exams has been given to the class. Requests for withdrawal involving extenuating circumstances will be evaluated on a case-by-case basis at the discretion of the instructor.
 
 ## Student Resources & Accommodations
 
@@ -192,4 +233,4 @@ Any student facing academic or personal challenges due to difficulty affording g
 
 </details>
 
-*Syllabus version AF68F6BC · 2026-08-24*
+*Syllabus version C4D46AD8 · 2026-08-24*
