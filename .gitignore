@@ -7,7 +7,10 @@
 cecs-*-syllabus-*.html
 syllabus.html
 syllabus_canvas.html
+# department submission naming: "CECS 378_01_FA26_..." through Fall 2025,
+# "CECS_378-01_2026_FA_..." from Fall 2026. Both spellings ignored.
 CECS *.pdf
+CECS_*.pdf
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
